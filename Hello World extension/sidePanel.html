@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Assistent</title>
+  <link rel="stylesheet" href="sidePanel.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Research Assistant</h1>
+    </div>
+
+    <div class="actions">
+      <button id="summarizeBtn">
+        <span class="btn-icon">✨</span>
+        Summarize
+      </button>
+      <button id="refreshBtn">
+        <span class="btn-icon"></span>
+        Refresh
+      </button>
+    </div>
+
+    <div class="results-section">
+      <h2>Summary</h2>
+      <div id="results"></div>
+    </div>
+    
+    <div class="notes">
+      <h2>Research Notes</h2>  
+      <textarea id="notesArea" placeholder="Start typing your research notes..."></textarea>
+      <button id="saveNoteBtn">
+        <span class="btn-icon">💾</span>
+        Save Notes
+      </button>
+    </div>
+  </div>
+  <script src="sidePanel.js"></script>
+</body>
+
+</html>
